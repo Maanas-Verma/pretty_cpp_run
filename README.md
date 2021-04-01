@@ -13,7 +13,7 @@ run this on terminal
   ```
 
 ## Step 2: 
-Open another terminal and enter this command
+On same terminal and enter this command
 ```sudo vi /etc/bash.bashrc```
 and then put your password there
 ## Step 3:
