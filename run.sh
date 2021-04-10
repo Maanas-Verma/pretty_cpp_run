@@ -4,12 +4,14 @@ File="template" ;
 Afile="A.cpp"
 Infile="input.txt"
 if [ -e $File ] ; then 
-    # check if given file is there
-    if [ -e $1 ] ; then
-        if [ -z $1 ] ; then
-            Lpath=$(<last.txt)
-            echo "Last running file is at path '$Lpath'"
-            printf "You want to run this file? y/n:"
+    # active only when there is a minimum requirement satisfy that is wheather template file is present or not
+    if [ -e $1 ] ; then 
+        # It is active in two cases one is when there is a file or no file name is given
+        if [ -z $1 ] ; then 
+            # It is active when there no file name provided
+            Lpath=$(<last.txt)                            # file content of last.txt
+            echo "Last running file is at path '$Lpath'"  # print last running file address
+            printf "You want to run this file? y/n:"      # always ask before runnning
             read perm
             if [ $perm == "y" ] ; then
                 # reurn the test script having the path by last.txt
