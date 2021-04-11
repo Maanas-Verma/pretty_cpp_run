@@ -3,6 +3,8 @@ Here I have work on bash files and create a simple file that helps to run cpp fi
 
 I am pretty sure you will get this repo so pretty
 
+go to [pretty_cpp_wiki](https://maanas-verma.github.io/pretty_cpp_run/)
+
 ## Installation
 First of all for using this repo is Installation
 - ### Step 1:
