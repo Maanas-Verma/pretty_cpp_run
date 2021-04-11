@@ -19,11 +19,11 @@ First of all for using this repo is Installation
     ```
     and then put your password there
 - ### Step 3:
-    Press ' i ' then go to last line of this file and add the following line. 
+    Go to last line of this file and add the following line. 
     ```
     alias m="bash ~/pretty_cpp_run/test.sh"
     ```
-    First of all save this file by pressing ' Ctrl+O ' -> press Enter -> press ' Ctrl+X ' -> press Enter
+    First of all save this file by pressing ' Ctrl+O ' -> press Enter -> press ' Ctrl+X '
 
 
 ## Setup 
